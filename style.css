@@ -1,0 +1,1318 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 10px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+    font-size: 20px;
+}
+.aTags{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.textFooter{
+    margin-left: 30%;
+}
+.nav-Btn{
+    margin-left: 40%;
+}
+.navButton{
+    width: 12%;
+    height: 60px;
+    border-radius: 35px;
+    background-color: #76b8b3;
+    color: white;
+    margin-right:4%;
+    border: none;
+    font-size: 20px;
+
+}
+.myHomePage{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    /* margin-left: 10%; */
+
+}
+.firstHeader{
+    font-size: 50px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.homeText{
+    display: flex;
+    flex-direction: column;
+    color: #070b2f;
+    margin-left: 5%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 2%;
+
+}
+.logo{
+    width: 5%;
+    height: 5%;
+}
+.myIcons{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.iconFooter{
+    width: 70px;
+    height: 50px;
+    margin-top: 25%;
+    margin-left: 20%;
+
+}
+.iconFooterD{
+    width: 90px;
+    height: 30px;
+    margin-top: 25%;
+   
+
+}
+
+.iconFooterN{
+    width: 100px;
+    height: 80px;
+    margin-top: 15%;
+    
+    
+}
+.iconFooterJ{
+    width: 60px;
+    height: 50px;
+    margin-top: 20%;
+
+
+}
+
+.iconFooterY{
+    width: 80px;
+    height: 60px;
+    margin-top: 18%;
+
+}
+
+.iconFooterS{
+    width: 150px;
+    height: 120px;
+    margin-top: 5%;
+
+}
+
+.iconFooter1{
+    width: 90px;
+    height: 90px;
+    margin-top: 20%;
+
+}
+
+.iconFooterDr{
+    width: 90px;
+    height: 90px;
+    margin-top: 13%;
+
+}
+.myFooter{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-top: 3%;
+    gap: 20%;
+    text-align: center;
+}
+.FooterDiv{
+    background-color: #e3f0e3ef;
+
+
+}
+.footer{
+    background-color: #e3f0e3ef;
+
+}
+.bookGirl{
+    /* height: 400px; */
+    border-radius: 50%;
+    /* background-color: brown; */
+    /* height:400px; */
+    width:30%;
+    /* border-radius: 100%; */
+    background-color: #efbe79;
+    margin-top: 5%;
+    /* border:90px black solid; */
+}
+form {
+  /* This bit sets up the horizontal layout */
+  display:flex;
+  flex-direction:row;
+  
+  /* This bit draws the box around it */
+  border:1px solid grey;
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding:1px;
+}
+.logoText{
+    margin-left: 2%;
+}
+
+input {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+}
+
+/* remove the input focus blue box, it will be in the wrong place. */
+input:focus {
+  outline: none;
+}
+
+/* Add the focus effect to the form so it contains the button */
+form:focus-within { 
+  outline: 1px solid blue 
+}
+
+button {
+  /* Just a little styling to make it pretty */
+  border:1px solid blue;
+  background:blue;
+  color:white;
+}
+
+#inner
+{
+    height:200px;
+    width:200px;
+    background:black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    margin-left:25%;
+    margin-top:25%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+h1{
+    font-size: xx-large;
+}
+p{
+    font-size: large;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 5%;
+}
+.webInput{
+    gap: 7%;
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    border-radius: 30px;
+
+}
+.placeholder{
+    width: 430%;
+    height: 80px;
+    border-radius: 40px;
+    padding-right: 30px;
+    border-color: white;
+}.search-button{
+    background-color: rgb(114,183,177);
+    color: white;
+    width: 150px;
+    border-radius: 30px; 
+    border: none; 
+    height: 60px;
+    margin-left: 490px;
+    position: absolute;
+    padding: 8%;
+    top: 15%;
+}
+#webpage-input{
+    gap: 7%;
+    position: relative;
+    display: inline-block;
+    width: 145px;
+}
+.textInput{
+    width: 430%;
+    height: 30px;
+    border-radius: 40px;
+    padding-right: 30px;
+    border-color: white;
+}
+.formInput{
+    border-radius: 20px;
+    border:none;
+    padding-left: 15px;
+    border-color: rgb(209, 206, 206);
+    margin-top: 5%;
+    background-color: whitesmoke;
+
+}
+.search{
+    background-color: #76b8b3;
+    border-radius: 50px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-size: large;
+    margin-left: 75%;
+    margin-bottom: 1%;
+}
+.login{
+    font-size: large;
+    margin-left: 15%;
+    margin-right: 5%;
+    font-size: 20px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.companyLogosA{
+    width: 90px;
+    height: 50px;
+    margin-top: 60%;
+    margin-bottom: 50%;
+}
+
+.companyLogosDr{
+    width: 120px;
+    height: 50px;
+    margin-top: 45%;
+    margin-bottom: 50%;
+}
+.navText{
+    background-color: #e3f0ef;
+    margin-left: 40%;
+}
+.myFooter{
+    background-color: #e3f0ef;
+
+}
+
+.companyLogosD{
+    width: 120px;
+    height: 90px;
+    margin-top: 40%;
+    margin-bottom: 50%;
+}
+
+.companyLogosS{
+    width: 180px;
+    height: 120px;
+    margin-top: 28%;
+    margin-bottom: 50%;
+}
+
+.companyLogosN{
+    width: 150px;
+    height: 80px;
+    margin-top: 40%;
+    margin-bottom: 50%;
+}
+.companyLogosJ{
+    width: 80px;
+    height: 60px;
+    margin-top: 55%;
+    margin-bottom: 50%;
+}
+
+.companyLogosY{
+    width: 90px;
+    height: 80px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 370px){
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+    }
+    .aTags{
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-left: 1%;
+    }
+    .nav-Btn{
+        margin-left: 40%;
+    }
+    .navButton{
+        width: 50%;
+        height: 50px;
+        border-radius: 35px;
+        background-color: #76b8b3;
+        color: white;
+        margin-left:14%;
+        border: none;
+    }
+    .logoText{
+        margin-top: 2%; 
+        margin-left: 12%;
+    }
+    .myHomePage{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        margin-left: 10%;
+    
+    }
+    .homeText{
+        display: flex;
+        flex-direction: column;
+        color: #070b2f;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10%;
+    
+    }
+    .logo{
+        width: 5%;
+        height: 5%;
+        margin-left: 15%;
+    }
+    .myIcons{
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .iconFooter{
+        width: 70px;
+        height: 50px;
+        margin-top: 25%;
+    
+    }
+    .iconFooterD{
+        width: 90px;
+        height: 30px;
+        margin-top: 25%;
+       
+    
+    }
+    
+    .iconFooterN{
+        width: 100px;
+        height: 80px;
+        margin-top: 15%;
+        
+        
+    }
+    .iconFooterJ{
+        width: 60px;
+        height: 50px;
+        margin-top: 20%;
+    
+    
+    }
+    
+    .iconFooterY{
+        width: 80px;
+        height: 60px;
+        margin-top: 18%;
+    
+    }
+    
+    .iconFooterS{
+        width: 150px;
+        height: 120px;
+        margin-top: 5%;
+        margin-right: 5%;
+    
+    }
+    
+    .iconFooter1{
+        width: 90px;
+        height: 90px;
+        margin-top: 20%;
+    
+    }
+    
+    .iconFooterDr{
+        width: 90px;
+        height: 90px;
+        margin-top: 13%;
+    
+    }
+    .myFooter{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 3%;
+    }
+    .footer{
+        text-align: center;
+        background-color: #e3f0e3ef;
+        display: flex;
+        flex-direction: column;
+    }
+    .bookGirl{
+        height: 400px;
+        border-radius: 30px;
+        /* background-color: brown; */
+        height:200px;
+        width:200px;
+        border-radius: 200px;
+        background-color: #efbe79;
+        /* border:90px black solid; */
+    }
+    form {
+      /* This bit sets up the horizontal layout */
+      display:flex;
+      flex-direction:row;
+      
+      /* This bit draws the box around it */
+      border:1px solid grey;
+    
+      /* I've used padding so you can see the edges of the elements. */
+      padding:1px;
+    }
+    
+    input {
+      /* Tell the input to use all the available space */
+      flex-grow:2;
+      /* And hide the input's outline, so the form looks like the outline */
+      border:none;
+    }
+    
+    /* remove the input focus blue box, it will be in the wrong place. */
+    input:focus {
+      outline: none;
+    }
+    
+    /* Add the focus effect to the form so it contains the button */
+    form:focus-within { 
+      outline: 1px solid blue 
+    }
+    
+    button {
+      /* Just a little styling to make it pretty */
+      border:1px solid blue;
+      background:blue;
+      color:white;
+    }
+    
+    #inner
+    {
+        height:200px;
+        width:200px;
+        background:black;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        margin-left:25%;
+        margin-top:25%;
+    }
+    
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: lightblue;
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+    h1{
+        font-size: medium;
+    }
+    p{
+        font-size: small;
+    }
+    body{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .formInput{
+        border:solid 1px;
+        border-radius: 70px;
+        padding-left: 15px;
+        border-color: rgb(209, 206, 206);
+        margin-top: 5%;
+        background-color: whitesmoke;
+        margin-right: 7%;
+    
+    }
+    .search{
+        background-color: #76b8b3;
+        border-radius: 50px;
+        width: 100px;
+        height: 60px;
+        color: white;
+        font-size: large;
+    }
+    .login{
+        font-size: large;
+        margin-left: 13%;
+    }
+    .navv{
+        background-color: white;
+    }
+    .FooterDiv{
+        width: 90%;
+        background-color: #e3f0e3ef;
+    
+    
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 540px){
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin-left:4%;
+    font-size: 20px;
+}
+.aTags{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.textFooter{
+    margin-left: 10%;
+}
+.nav-Btn{
+    
+    margin-left: 40%;
+}
+.navButton{
+    width: 50%;
+    height: 60px;
+    border-radius: 35px;
+    background-color: #76b8b3;
+    color: white;
+    margin-right:4%;
+    border: none;
+    font-size: 20px;
+
+}
+.myHomePage{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    /* margin-left: 10%; */
+
+}
+.firstHeader{
+    font-size: 30px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.homeText{
+    display: flex;
+    flex-direction: column;
+    color: #070b2f;
+    margin-left: 5%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 2%;
+
+}
+.logo{
+    width: 5%;
+    height: 5%;
+}
+.myIcons{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.iconFooter{
+    width: 70px;
+    height: 50px;
+    margin-top: 25%;
+    margin-left: 20%;
+
+}
+.iconFooterD{
+    width: 90px;
+    height: 30px;
+    margin-top: 25%;
+   
+
+}
+
+.iconFooterN{
+    width: 100px;
+    height: 80px;
+    margin-top: 15%;
+    
+    
+}
+.iconFooterJ{
+    width: 60px;
+    height: 50px;
+    margin-top: 20%;
+
+
+}
+
+.iconFooterY{
+    width: 80px;
+    height: 60px;
+    margin-top: 18%;
+
+}
+
+.iconFooterS{
+    width: 150px;
+    height: 120px;
+    margin-top: 5%;
+
+}
+
+.iconFooter1{
+    width: 90px;
+    height: 90px;
+    margin-top: 20%;
+
+}
+
+.iconFooterDr{
+    width: 90px;
+    height: 90px;
+    margin-top: 13%;
+
+}
+.myFooter{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-top: 3%;
+    gap: 20%;
+    text-align: center;
+}
+.FooterDiv{
+    background-color: #e3f0e3ef;
+    width: 80%;
+
+
+}
+.footer{
+    background-color: #e3f0e3ef;
+
+}
+.bookGirl{
+    /* height: 400px; */
+    border-radius: 50%;
+    /* background-color: brown; */
+    /* height:400px; */
+    width:30%;
+    /* border-radius: 100%; */
+    background-color: #efbe79;
+    margin-top: 5%;
+    /* border:90px black solid; */
+}
+form {
+  /* This bit sets up the horizontal layout */
+  display:flex;
+  flex-direction:row;
+  
+  /* This bit draws the box around it */
+  border:1px solid grey;
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding:1px;
+}
+.logoText{
+    margin-left: 2%;
+}
+
+input {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+}
+
+/* remove the input focus blue box, it will be in the wrong place. */
+input:focus {
+  outline: none;
+}
+
+/* Add the focus effect to the form so it contains the button */
+form:focus-within { 
+  outline: 1px solid blue 
+}
+
+button {
+  /* Just a little styling to make it pretty */
+  border:1px solid blue;
+  background:blue;
+  color:white;
+}
+
+#inner
+{
+    height:200px;
+    width:200px;
+    background:black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    margin-left:25%;
+    margin-top:25%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+h1{
+    font-size: x-large;
+}
+p{
+    font-size: large;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 5%;
+}
+.webInput{
+    gap: 7%;
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    border-radius: 30px;
+
+}
+.placeholder{
+    width: 230%;
+    height: 80px;
+    border-radius: 40px;
+    padding-right: 30px;
+    border-color: white;
+}.search-button{
+    background-color: rgb(114,183,177);
+    color: white;
+    width: 120px;
+    border-radius: 30px; 
+    border: none; 
+    height: 60px;
+    margin-left: 150px;
+    position: absolute;
+    padding: 8%;
+    top: 15%;
+}
+#webpage-input{
+    gap: 7%;
+    position: relative;
+    display: inline-block;
+    width: 85px;
+}
+.textInput{
+    width: 130%;
+    height: 30px;
+    border-radius: 40px;
+    padding-right: 30px;
+    border-color: white;
+}
+.formInput{
+    border-radius: 20px;
+    border:none;
+    padding-left: 15px;
+    border-color: rgb(209, 206, 206);
+    margin-top: 5%;
+    background-color: whitesmoke;
+
+}
+.search{
+    background-color: #76b8b3;
+    border-radius: 50px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-size: large;
+    margin-left: 75%;
+    margin-bottom: 1%;
+}
+.login{
+    font-size: large;
+    margin-left: 15%;
+    margin-right: 5%;
+    font-size: 20px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto;
+}
+.companyLogosA{
+    width: 90px;
+    height: 50px;
+    margin-top: 60%;
+    margin-bottom: 50%;
+}
+
+.companyLogosDr{
+    width: 120px;
+    height: 50px;
+    margin-top: 45%;
+    margin-bottom: 50%;
+}
+.navText{
+    background-color: #e3f0ef;
+    margin-left: 40%;
+}
+.myFooter{
+    background-color: #e3f0ef;
+
+}
+
+.companyLogosD{
+    width: 120px;
+    height: 90px;
+    margin-top: 40%;
+    margin-bottom: 50%;
+}
+
+.companyLogosS{
+    width: 180px;
+    height: 120px;
+    margin-top: 28%;
+    margin-bottom: 50%;
+}
+
+.companyLogosN{
+    width: 150px;
+    height: 80px;
+    margin-top: 40%;
+    margin-bottom: 50%;
+}
+.companyLogosJ{
+    width: 80px;
+    height: 60px;
+    margin-top: 55%;
+    margin-bottom: 50%;
+}
+
+.companyLogosY{
+    width: 90px;
+    height: 80px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1280px){
+
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        margin-left:4%;
+        font-size: 10px;
+    }
+    .aTags{
+        display: flex;
+        flex-direction: row;
+    }
+    .textFooter{
+        margin-left: 10%;
+    }
+    .nav-Btn{
+        
+        margin-left: 40%;
+    }
+    .navButton{
+        width: 80%;
+        height: 60px;
+        border-radius: 35px;
+        background-color: #76b8b3;
+        color: white;
+        margin-right:4%;
+        border: none;
+        font-size: 20px;
+    
+    }
+    .myHomePage{
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        /* margin-left: 10%; */
+    
+    }
+    .firstHeader{
+        font-size: 30px;
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .homeText{
+        display: flex;
+        flex-direction: column;
+        color: #070b2f;
+        margin-left: 5%;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 2%;
+    
+    }
+    .logo{
+        width: 5%;
+        height: 5%;
+    }
+    .myIcons{
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .iconFooter{
+        width: 70px;
+        height: 50px;
+        margin-top: 25%;
+        margin-left: 20%;
+    
+    }
+    .iconFooterD{
+        width: 90px;
+        height: 30px;
+        margin-top: 25%;
+       
+    
+    }
+    
+    .iconFooterN{
+        width: 100px;
+        height: 80px;
+        margin-top: 15%;
+        
+        
+    }
+    .iconFooterJ{
+        width: 60px;
+        height: 50px;
+        margin-top: 20%;
+    
+    
+    }
+    
+    .iconFooterY{
+        width: 80px;
+        height: 60px;
+        margin-top: 18%;
+    
+    }
+    
+    .iconFooterS{
+        width: 150px;
+        height: 120px;
+        margin-top: 5%;
+    
+    }
+    
+    .iconFooter1{
+        width: 90px;
+        height: 90px;
+        margin-top: 20%;
+    
+    }
+    
+    .iconFooterDr{
+        width: 90px;
+        height: 90px;
+        margin-top: 13%;
+    
+    }
+    .myFooter{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        margin-top: 3%;
+        gap: 20%;
+        text-align: center;
+    }
+    .FooterDiv{
+        background-color: #e3f0e3ef;
+    
+    
+    }
+    .footer{
+        background-color: #e3f0e3ef;
+    
+    }
+    .bookGirl{
+        /* height: 400px; */
+        border-radius: 50%;
+        /* background-color: brown; */
+        /* height:400px; */
+        width:30%;
+        /* border-radius: 100%; */
+        background-color: #efbe79;
+        margin-top: 5%;
+        /* border:90px black solid; */
+    }
+    form {
+      /* This bit sets up the horizontal layout */
+      display:flex;
+      flex-direction:row;
+      
+      /* This bit draws the box around it */
+      border:1px solid grey;
+    
+      /* I've used padding so you can see the edges of the elements. */
+      padding:1px;
+    }
+    .logoText{
+        margin-left: 2%;
+    }
+    
+    input {
+      /* Tell the input to use all the available space */
+      flex-grow:2;
+      /* And hide the input's outline, so the form looks like the outline */
+      border:none;
+    }
+    
+    /* remove the input focus blue box, it will be in the wrong place. */
+    input:focus {
+      outline: none;
+    }
+    
+    /* Add the focus effect to the form so it contains the button */
+    form:focus-within { 
+      outline: 1px solid blue 
+    }
+    
+    button {
+      /* Just a little styling to make it pretty */
+      border:1px solid blue;
+      background:blue;
+      color:white;
+    }
+    
+    #inner
+    {
+        height:200px;
+        width:200px;
+        background:black;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        margin-left:25%;
+        margin-top:25%;
+    }
+    
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: lightblue;
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+    h1{
+        font-size: x-large;
+    }
+    p{
+        font-size: large;
+    }
+    body{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0 5%;
+    }
+    .webInput{
+        gap: 7%;
+        position: relative;
+        display: inline-block;
+        width: 500px;
+        border-radius: 30px;
+    
+    }
+    .placeholder{
+        width: 230%;
+        height: 80px;
+        border-radius: 40px;
+        padding-right: 30px;
+        border-color: white;
+    }.search-button{
+        background-color: rgb(114,183,177);
+        color: white;
+        width: 120px;
+        border-radius: 30px; 
+        border: none; 
+        height: 60px;
+        margin-left: 150px;
+        position: absolute;
+        padding: 8%;
+        top: 15%;
+    }
+    #webpage-input{
+        gap: 7%;
+        position: relative;
+        display: inline-block;
+        width: 85px;
+    }
+    .textInput{
+        width: 130%;
+        height: 30px;
+        border-radius: 40px;
+        padding-right: 30px;
+        border-color: white;
+    }
+    .formInput{
+        border-radius: 20px;
+        border:none;
+        padding-left: 15px;
+        border-color: rgb(209, 206, 206);
+        margin-top: 5%;
+        background-color: whitesmoke;
+    
+    }
+    .search{
+        background-color: #76b8b3;
+        border-radius: 50px;
+        width: 100px;
+        height: 60px;
+        color: white;
+        font-size: large;
+        margin-left: 75%;
+        margin-bottom: 1%;
+    }
+    .login{
+        font-size: large;
+        margin-left: 15%;
+        margin-right: 5%;
+        font-size: 20px;
+    
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .companyLogosA{
+        width: 90px;
+        height: 50px;
+        margin-top: 60%;
+        margin-bottom: 50%;
+    }
+    
+    .companyLogosDr{
+        width: 120px;
+        height: 50px;
+        margin-top: 45%;
+        margin-bottom: 50%;
+    }
+    .navText{
+        background-color: #e3f0ef;
+        margin-left: 40%;
+    }
+    .myFooter{
+        background-color: #e3f0ef;
+    
+    }
+    
+    .companyLogosD{
+        width: 120px;
+        height: 90px;
+        margin-top: 40%;
+        margin-bottom: 50%;
+    }
+    
+    .companyLogosS{
+        width: 180px;
+        height: 120px;
+        margin-top: 28%;
+        margin-bottom: 50%;
+    }
+    
+    .companyLogosN{
+        width: 150px;
+        height: 80px;
+        margin-top: 40%;
+        margin-bottom: 50%;
+    }
+    .companyLogosJ{
+        width: 80px;
+        height: 60px;
+        margin-top: 55%;
+        margin-bottom: 50%;
+    }
+    
+    .companyLogosY{
+        width: 90px;
+        height: 80px;
+        margin-top: 50%;
+        margin-bottom: 50%;
+    }
+    }
+    
